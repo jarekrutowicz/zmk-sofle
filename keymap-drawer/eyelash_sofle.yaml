@@ -63,7 +63,7 @@ layers:
   - RETURN
   - '2'
   - $$mdi:apple-keyboard-option$$
-  - CONTEXT MENU
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   layer1:
   - {t: '$$mdi:transfer$$', type: trans}
