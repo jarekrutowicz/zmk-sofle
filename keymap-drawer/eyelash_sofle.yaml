@@ -58,7 +58,7 @@ layers:
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
   - layer1
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: RETURN, h: '$$mdi:apple-keyboard-shift$$'}
   - '2'
@@ -117,7 +117,7 @@ layers:
   - {t: ;, s: ':'}
   - ':'
   - \
-  - {t: '2', h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -182,7 +182,7 @@ layers:
   - END
   - _
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: LAYER0, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -227,9 +227,9 @@ layers:
   - OUT USB
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: layer1, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '2', h: toggle}
   - $$mdi:volume-off$$
   - $$mdi:volume-low$$
   - PLAY
