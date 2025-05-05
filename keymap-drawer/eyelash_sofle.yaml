@@ -30,13 +30,13 @@ layers:
   - $$mdi:keyboard-esc$$
   - A
   - S
-  - D
-  - F
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-option$$'}
   - G
   - $$mdi:arrow-left-bold$$
   - H
-  - J
-  - K
+  - {t: J, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
@@ -58,7 +58,7 @@ layers:
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
   - layer1
-  - {t: '0', h: '0'}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: RETURN, h: '$$mdi:apple-keyboard-shift$$'}
   - '2'
