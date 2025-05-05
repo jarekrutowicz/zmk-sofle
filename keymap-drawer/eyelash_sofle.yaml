@@ -58,7 +58,7 @@ layers:
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
   - layer1
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '0', h: '0'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: RETURN, h: '$$mdi:apple-keyboard-shift$$'}
   - '2'
