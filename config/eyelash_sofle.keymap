@@ -54,7 +54,6 @@
             >;
 
             display-name = "layer1";
-            sensor-bindings = <&none>;
         };
 
         layer_2 {
