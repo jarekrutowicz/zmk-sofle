@@ -13,18 +13,6 @@
 
 &msc_input_listener { input-processors = <&zip_scroll_scaler 2 1>; };
 
-&msc {
-    acceleration-exponent = <1>;      // 0
-    time-to-max-speed-ms = <100>;       // 300
-    delay-ms = <0>;                   // 0
-};
-
-&mmv {
-    time-to-max-speed-ms = <500>;
-    acceleration-exponent = <1>;
-    trigger-period-ms = <16>;
-};
-
 / {
     hold_tap_pretime: hold_tap_pretime {
         compatible = "zmk,behavior-hold-tap";
@@ -35,6 +23,7 @@
         require-prior-idle-ms = <150>;
         flavor = "balanced";
         tapping-term-ms = <100>;
+        quick-tap-ms = <1000>;
     };
 
     behaviors {
