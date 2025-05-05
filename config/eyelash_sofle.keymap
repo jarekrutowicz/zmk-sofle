@@ -54,11 +54,11 @@
 
         layer0 {
             bindings = <
-&kp TILDE       &kp N1     &kp N2        &kp N3        &kp N4  &kp N5                     &kp UP_ARROW     &kp N6             &kp N7  &kp N8        &kp N9         &kp N0             &kp BACKSPACE
-&kp TAB         &kp Q      &kp W         &kp E         &kp R   &kp T                      &kp DOWN_ARROW   &kp Y              &kp U   &kp I         &kp O          &kp P              &kp UNDER
-&kp ESCAPE      &kp A      &kp S         &kp D         &kp F   &kp G                      &kp LEFT_ARROW   &kp H              &kp J   &kp K         &kp L          &kp SEMI           &kp APOS
-&kp LEFT_SHIFT  &kp Z      &kp X         &kp C         &kp V   &kp B                      &kp RIGHT_ARROW  &kp N              &kp M   &kp COMMA     &kp DOT        &kp FSLH           &kp RIGHT_SHIFT
-&kp C_MUTE      &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mo 1   &new_behavior_space 0 0    &kp ENTER        &mt RSHIFT RETURN  &mo 2   &kp LEFT_ALT  &kp RIGHT_ALT  &kp RIGHT_CONTROL
+&kp TILDE       &kp N1     &kp N2        &kp N3                            &kp N4                        &kp N5                                  &kp UP_ARROW     &kp N6             &kp N7                        &kp N8                             &kp N9         &kp N0             &kp BACKSPACE
+&kp TAB         &kp Q      &kp W         &kp E                             &kp R                         &kp T                                   &kp DOWN_ARROW   &kp Y              &kp U                         &kp I                              &kp O          &kp P              &kp UNDER
+&kp ESCAPE      &kp A      &kp S         &hold_tap_pretime LEFT_CONTROL D  &hold_tap_pretime LEFT_ALT F  &kp G                                   &kp LEFT_ARROW   &kp H              &hold_tap_pretime LEFT_ALT J  &hold_tap_pretime RIGHT_CONTROL K  &kp L          &kp SEMI           &kp APOS
+&kp LEFT_SHIFT  &kp Z      &kp X         &kp C                             &kp V                         &kp B                                   &kp RIGHT_ARROW  &kp N              &kp M                         &kp COMMA                          &kp DOT        &kp FSLH           &kp RIGHT_SHIFT
+&kp C_MUTE      &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT                      &mo 1                         &new_behavior_space LEFT_SHIFT SPACE    &kp ENTER        &mt RSHIFT RETURN  &mo 2                         &kp LEFT_ALT                       &kp RIGHT_ALT  &kp RIGHT_CONTROL
             >;
 
             display-name = "LAYER0";
