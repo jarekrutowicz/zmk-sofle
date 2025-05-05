@@ -14,9 +14,9 @@
 &msc_input_listener { input-processors = <&zip_scroll_scaler 2 1>; };
 
 / {
-    hold_tap_pretime: hold_tap_pretime {
+    hold_tap_pretime_left: hold_tap_pretime_left {
         compatible = "zmk,behavior-hold-tap";
-        label = "HOLD_TAP_PRETIME";
+        label = "HOLD_TAP_PRETIME_LEFT";
         bindings = <&kp>, <&kp>;
 
         #binding-cells = <2>;
@@ -24,6 +24,7 @@
         flavor = "balanced";
         tapping-term-ms = <300>;
         retro-tap;
+        hold-trigger-key-positions = <7 20 47 46 9 10 11 12 22 23 24 25 35 36 37 38 48 49 50 51 34 33 21 8>;
     };
 
     new_behavior_space: new_behavior_space {
@@ -37,6 +38,19 @@
         retro-tap;
     };
 
+    hold_tap_pretime_right: hold_tap_pretime_right {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HOLD_TAP_PRETIME_RIGHT";
+        bindings = <&kp>, <&kp>;
+
+        #binding-cells = <2>;
+        require-prior-idle-ms = <300>;
+        flavor = "balanced";
+        tapping-term-ms = <300>;
+        retro-tap;
+        hold-trigger-key-positions = <0 1 2 3 4 5 13 14 15 16 17 18 26 27 28 29 30 31 39 40 41 42 43 44>;
+    };
+
     behaviors {
     };
 
@@ -45,11 +59,11 @@
 
         layer0 {
             bindings = <
-&kp TILDE       &kp N1     &kp N2        &kp N3                            &kp N4                        &kp N5       &kp UP_ARROW     &kp N6             &kp N7                        &kp N8                             &kp N9         &kp N0             &kp BACKSPACE
-&kp TAB         &kp Q      &kp W         &kp E                             &kp R                         &kp T        &kp DOWN_ARROW   &kp Y              &kp U                         &kp I                              &kp O          &kp P              &kp UNDER
-&kp ESCAPE      &kp A      &kp S         &hold_tap_pretime LEFT_CONTROL D  &hold_tap_pretime LEFT_ALT F  &kp G        &kp LEFT_ARROW   &kp H              &hold_tap_pretime LEFT_ALT J  &hold_tap_pretime RIGHT_CONTROL K  &kp L          &kp SEMI           &kp APOS
-&kp LEFT_SHIFT  &kp Z      &kp X         &kp C                             &kp V                         &kp B        &kp RIGHT_ARROW  &kp N              &kp M                         &kp COMMA                          &kp DOT        &kp FSLH           &kp RIGHT_SHIFT
-&kp C_MUTE      &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT                      &mo 1                         &kp SPACE    &kp ENTER        &mt RSHIFT RETURN  &mo 2                         &kp LEFT_ALT                       &kp RIGHT_ALT  &kp RIGHT_CONTROL
+&kp TILDE       &kp N1     &kp N2        &kp N3                                 &kp N4                             &kp N5       &kp UP_ARROW     &kp N6             &kp N7                             &kp N8                                  &kp N9         &kp N0             &kp BACKSPACE
+&kp TAB         &kp Q      &kp W         &kp E                                  &kp R                              &kp T        &kp DOWN_ARROW   &kp Y              &kp U                              &kp I                                   &kp O          &kp P              &kp UNDER
+&kp ESCAPE      &kp A      &kp S         &hold_tap_pretime_left LEFT_CONTROL D  &hold_tap_pretime_left LEFT_ALT F  &kp G        &kp LEFT_ARROW   &kp H              &hold_tap_pretime_left LEFT_ALT J  &hold_tap_pretime_left RIGHT_CONTROL K  &kp L          &kp SEMI           &kp APOS
+&kp LEFT_SHIFT  &kp Z      &kp X         &kp C                                  &kp V                              &kp B        &kp RIGHT_ARROW  &kp N              &kp M                              &kp COMMA                               &kp DOT        &kp FSLH           &kp RIGHT_SHIFT
+&kp C_MUTE      &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT                           &mo 1                              &kp SPACE    &kp ENTER        &mt RSHIFT RETURN  &mo 2                              &kp LEFT_ALT                            &kp RIGHT_ALT  &kp RIGHT_CONTROL
             >;
 
             display-name = "LAYER0";
