@@ -29,7 +29,7 @@ layers:
   - _
   - $$mdi:keyboard-esc$$
   - A
-  - S
+  - {t: 'Alt+$$mdi:apple-keyboard-control$$', h: S}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F, h: '$$mdi:apple-keyboard-option$$'}
   - G
@@ -37,31 +37,31 @@ layers:
   - H
   - {t: J, h: '$$mdi:apple-keyboard-option$$'}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
-  - L
+  - {t: 'Alt+$$mdi:apple-keyboard-control$$', h: L}
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
-  - X
-  - C
-  - V
+  - {t: 'Sft+Alt+$$mdi:apple-keyboard-control$$', h: X}
+  - {t: 'Sft+$$mdi:apple-keyboard-control$$', h: C}
+  - {t: 'Sft+Ctl+$$mdi:apple-keyboard-option$$', h: V}
   - B
   - $$mdi:arrow-right-bold$$
   - N
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
+  - {t: 'Sft+$$mdi:apple-keyboard-option$$', h: M}
+  - {t: 'Sft+$$mdi:apple-keyboard-control$$', h: ','}
+  - {t: 'Alt+Sft+$$mdi:apple-keyboard-control$$', h: .}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
-  - layer1
+  - {t: '$$mdi:backspace$$', h: layer1}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: RETURN, h: '$$mdi:apple-keyboard-shift$$'}
-  - '2'
+  - {t: 'Ctl+$$mdi:backspace$$', h: '2'}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
