@@ -27,20 +27,20 @@ layers:
   - O
   - P
   - _
-  - $$mdi:keyboard-esc$$
+  - $$mdi:apple-keyboard-shift$$
   - A
   - {t: S, h: 'Alt+$$mdi:apple-keyboard-control$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: G, h: '$$mdi:apple-keyboard-shift$$'}
+  - G
   - $$mdi:arrow-left-bold$$
-  - {t: H, h: '$$mdi:apple-keyboard-shift$$'}
+  - H
   - {t: J, h: '$$mdi:apple-keyboard-option$$'}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: 'Alt+$$mdi:apple-keyboard-control$$'}
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
+  - $$mdi:keyboard-esc$$
   - Z
   - {t: X, h: 'Sft+Alt+$$mdi:apple-keyboard-control$$'}
   - {t: C, h: 'Sft+$$mdi:apple-keyboard-control$$'}
@@ -51,7 +51,7 @@ layers:
   - {t: M, h: 'Sft+$$mdi:apple-keyboard-option$$'}
   - {t: ',', h: 'Sft+$$mdi:apple-keyboard-control$$', s: <}
   - {t: ., h: 'Meh+$$mdi:apple-keyboard-control$$', s: '>'}
-  - {t: /, s: '?'}
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
