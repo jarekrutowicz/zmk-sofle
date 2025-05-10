@@ -60,7 +60,7 @@ layers:
   - layer1
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: RETURN, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: RETURN, h: '4'}
   - '2'
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-option$$
@@ -320,7 +320,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
