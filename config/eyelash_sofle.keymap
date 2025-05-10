@@ -72,6 +72,28 @@
         tapping-term-ms = <100>;
     };
 
+    shift_left_hold_tap: shift_left_hold_tap {
+        compatible = "zmk,behavior-hold-tap";
+        label = "SHIFT_LEFT_HOLD_TAP";
+        bindings = <&kp>, <&kp>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <1000>;
+        retro-tap;
+        hold-trigger-key-positions = <7 8 9 10 11 20 21 22 23 24 33 34 35 36 37 46 47 48 49 50>;
+    };
+
+    shift_right_hold_tap: shift_right_hold_tap {
+        compatible = "zmk,behavior-hold-tap";
+        label = "SHIFT_RIGHT_HOLD_TAP";
+        bindings = <&none>, <&none>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <1000>;
+        retro-tap;
+        hold-trigger-key-positions = <1 2 3 4 5 14 15 16 17 18 27 28 29 30 31 40 41 42 43 44>;
+    };
+
     behaviors {
     };
 
