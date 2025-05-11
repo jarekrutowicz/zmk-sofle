@@ -102,7 +102,7 @@ layers:
   - ^
   - '&'
   - '*'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - ':'
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -115,7 +115,7 @@ layers:
   - _
   - {t: '''', s: '"'}
   - {t: Sft+', s: Sft+"}
-  - ':'
+  - {t: '$$mdi:transfer$$', type: trans}
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
