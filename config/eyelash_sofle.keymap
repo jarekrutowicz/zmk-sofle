@@ -138,7 +138,7 @@
             bindings = <
 &trans  &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &trans  &trans           &trans           &trans             &trans      &trans       &trans
 &trans  &bt BT_CLR       &bt BT_CLR_ALL  &trans           &trans           &trans             &trans  &trans           &trans           &kp C_VOLUME_UP    &kp C_STOP  &trans       &trans
-&trans  &out OUT_USB     &out OUT_USB    &trans           &trans           &trans             &trans  &trans           &kp C_MUTE       &kp C_VOLUME_DOWN  &kp C_PLAY  &trans       &trans
+&trans  &out OUT_USB     &out OUT_USB    &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans             &trans  &trans           &kp C_MUTE       &kp C_VOLUME_DOWN  &kp C_PLAY  &trans       &trans
 &trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI    &trans  &rgb_ug RGB_SPI  &rgb_ug RGB_BRD  &sys_reset         &trans      &bootloader  &trans
 &trans  &trans           &trans          &trans           &trans           &trans             &trans  &trans           &trans           &trans             &trans      &trans
             >;
