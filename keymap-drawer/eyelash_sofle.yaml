@@ -40,7 +40,7 @@ layers:
   - {t: L, h: 'Alt+$$mdi:apple-keyboard-control$$'}
   - _
   - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-control$$
+  - '&control_tap_dance'
   - Z
   - {t: X, h: 'Sft+Alt+$$mdi:apple-keyboard-control$$'}
   - {t: C, h: 'Sft+$$mdi:apple-keyboard-control$$'}
