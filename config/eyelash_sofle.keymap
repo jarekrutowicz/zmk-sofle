@@ -104,7 +104,7 @@
             bindings = <
 &none             &none      &none                                          &none                                      &none                                  &none        &kp UP_ARROW     &none                     &none                                   &none                                           &none                                                 &none              &none
 &kp TAB           &kp Q      &kp W                                          &kp E                                      &kp R                                  &kp T        &kp DOWN_ARROW   &kp Y                     &kp U                                   &kp I                                           &kp O                                                 &kp P              &kp BACKSPACE
-&kp LEFT_SHIFT    &kp A      &hold_tap_pretime_left LA(LEFT_CONTROL) S      &hold_tap_pretime_left LEFT_CONTROL D      &hold_tap_pretime_left LEFT_ALT F      &kp G        &kp LEFT_ARROW   &kp H                     &hold_tap_pretime_right LEFT_ALT J      &hold_tap_pretime_right LEFT_CONTROL K          &hold_tap_pretime_right LA(LEFT_CONTROL) L            &kp SEMI           &kp RIGHT_SHIFT
+&kp LEFT_SHIFT    &kp A      &hold_tap_pretime_left LA(LEFT_CONTROL) S      &hold_tap_pretime_left LEFT_CONTROL D      &hold_tap_pretime_left LEFT_ALT F      &kp G        &kp LEFT_ARROW   &kp H                     &hold_tap_pretime_right LEFT_ALT J      &hold_tap_pretime_right LEFT_CONTROL K          &hold_tap_pretime_right LA(LEFT_CONTROL) L            &kp UNDER          &kp RIGHT_SHIFT
 &kp LEFT_CONTROL  &kp Z      &hold_tap_pretime_left LS(LA(LEFT_CONTROL)) X  &hold_tap_pretime_left LS(LEFT_CONTROL) C  &hold_tap_pretime_left LS(LEFT_ALT) V  &kp B        &kp RIGHT_ARROW  &kp N                     &hold_tap_pretime_right LS(LEFT_ALT) M  &hold_tap_pretime_right LS(LEFT_CONTROL) COMMA  &hold_tap_pretime_right LA(LS(LC(LEFT_CONTROL))) DOT  &kp APOS           &kp LEFT_ALT
 &kp C_MUTE        &kp LCTRL  &kp LEFT_WIN                                   &kp LEFT_SHIFT                             &mo 1                                  &kp SPACE    &kp ENTER        &hold_tap_kp_mo 4 RETURN  &mo 2                                   &kp LEFT_SHIFT                                  &kp RIGHT_ALT                                         &kp RIGHT_CONTROL
             >;
@@ -114,11 +114,11 @@
 
         layer_1 {
             bindings = <
-&trans  &trans           &trans         &trans    &trans      &trans             &trans  &trans        &trans         &trans        &trans          &trans   &trans
-&trans  &kp F1           &kp F2         &kp F3    &kp F4      &kp F5             &trans  &kp F6        &kp F7         &kp F8        &kp F9          &kp F10  &trans
-&trans  &kp EXCLAMATION  &kp AT_SIGN    &kp HASH  &kp DOLLAR  &kp PERCENT        &trans  &kp CARET     &kp AMPERSAND  &kp COLON     &kp SEMICOLON   &kp F11  &trans
-&trans  &trans           &kp BACKSLASH  &kp PIPE  &kp SLASH   &kp EXCLAMATION    &trans  &kp QUESTION  &kp APOS       &kp LS(APOS)  &kp UNDERSCORE  &kp F12  &trans
-&trans  &trans           &trans         &trans    &trans      &trans             &trans  &trans        &trans         &trans        &trans          &trans
+&trans  &trans  &trans         &trans    &trans      &trans             &trans  &trans        &trans         &trans         &trans     &trans   &trans
+&trans  &kp F1  &kp F2         &kp F3    &kp F4      &kp F5             &trans  &kp F6        &kp F7         &kp F8         &kp F9     &kp F10  &trans
+&trans  &trans  &kp AT_SIGN    &kp HASH  &kp DOLLAR  &kp PERCENT        &trans  &kp QUESTION  &kp AMPERSAND  &kp SEMICOLON  &kp COLON  &kp F11  &trans
+&trans  &trans  &kp BACKSLASH  &kp PIPE  &kp SLASH   &kp EXCLAMATION    &trans  &kp CARET     &kp APOS       &kp LS(APOS)   &trans     &kp F12  &trans
+&trans  &trans  &trans         &trans    &trans      &trans             &trans  &trans        &trans         &trans         &trans     &trans
             >;
 
             display-name = "layer1";
