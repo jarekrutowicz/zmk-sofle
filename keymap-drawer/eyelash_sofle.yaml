@@ -93,7 +93,7 @@ layers:
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '!'
   - '@'
   - '#'
   - $
@@ -101,8 +101,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - ^
   - '&'
-  - '*'
   - ':'
+  - {t: ;, s: ':'}
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -112,7 +112,7 @@ layers:
   - {t: /, s: '?'}
   - '!'
   - {t: '$$mdi:transfer$$', type: trans}
-  - _
+  - '?'
   - {t: '''', s: '"'}
   - {t: Sft+', s: Sft+"}
   - _
