@@ -72,26 +72,14 @@
         tapping-term-ms = <100>;
     };
 
-    shift_left_hold_tap: shift_left_hold_tap {
+    hold_tap_shift: hold_tap_shift {
         compatible = "zmk,behavior-hold-tap";
-        label = "SHIFT_LEFT_HOLD_TAP";
+        label = "HOLD_TAP_SHIFT";
         bindings = <&kp>, <&kp>;
 
         #binding-cells = <2>;
-        tapping-term-ms = <1000>;
+        tapping-term-ms = <1>;
         retro-tap;
-        hold-trigger-key-positions = <7 8 9 10 11 20 21 22 23 24 33 34 35 36 37 46 47 48 49 50>;
-    };
-
-    shift_right_hold_tap: shift_right_hold_tap {
-        compatible = "zmk,behavior-hold-tap";
-        label = "SHIFT_RIGHT_HOLD_TAP";
-        bindings = <&kp>, <&kp>;
-
-        #binding-cells = <2>;
-        tapping-term-ms = <1000>;
-        retro-tap;
-        hold-trigger-key-positions = <1 2 3 4 5 14 15 16 17 18 27 28 29 30 31 40 41 42 43 44>;
     };
 
     behaviors {
@@ -102,11 +90,11 @@
 
         layer0 {
             bindings = <
-&none             &none      &none                                          &none                                      &none                                  &none        &kp UP_ARROW     &none                     &none                                   &none                                           &none                                                 &none              &none
-&kp TAB           &kp Q      &kp W                                          &kp E                                      &kp R                                  &kp T        &kp DOWN_ARROW   &kp Y                     &kp U                                   &kp I                                           &kp O                                                 &kp P              &kp BACKSPACE
-&kp ESCAPE        &kp A      &hold_tap_pretime_left LA(LEFT_CONTROL) S      &hold_tap_pretime_left LEFT_CONTROL D      &hold_tap_pretime_left LEFT_ALT F      &kp G        &kp LEFT_ARROW   &kp H                     &hold_tap_pretime_right LEFT_ALT J      &hold_tap_pretime_right LEFT_CONTROL K          &hold_tap_pretime_right LA(LEFT_CONTROL) L            &kp UNDER          &kp LC(BACKSPACE)
-&kp LEFT_CONTROL  &kp Z      &hold_tap_pretime_left LS(LA(LEFT_CONTROL)) X  &hold_tap_pretime_left LS(LEFT_CONTROL) C  &hold_tap_pretime_left LS(LEFT_ALT) V  &kp B        &kp RIGHT_ARROW  &kp N                     &hold_tap_pretime_right LS(LEFT_ALT) M  &hold_tap_pretime_right LS(LEFT_CONTROL) COMMA  &hold_tap_pretime_right LA(LS(LC(LEFT_CONTROL))) DOT  &kp APOS           &kp LEFT_ALT
-&kp C_MUTE        &kp LCTRL  &kp LEFT_WIN                                   &kp LEFT_SHIFT                             &mo 1                                  &kp SPACE    &kp ENTER        &hold_tap_kp_mo 4 RETURN  &mo 2                                   &kp LEFT_SHIFT                                  &kp RIGHT_ALT                                         &kp RIGHT_CONTROL
+&none             &none  &none                                          &none                                      &none                                  &none        &none  &none                     &none                                   &none                                           &none                                                 &none      &none
+&kp TAB           &kp Q  &kp W                                          &kp E                                      &kp R                                  &kp T        &none  &kp Y                     &kp U                                   &kp I                                           &kp O                                                 &kp P      &kp BACKSPACE
+&kp ESCAPE        &kp A  &hold_tap_pretime_left LA(LEFT_CONTROL) S      &hold_tap_pretime_left LEFT_CONTROL D      &hold_tap_pretime_left LEFT_ALT F      &kp G        &none  &kp H                     &hold_tap_pretime_right LEFT_ALT J      &hold_tap_pretime_right LEFT_CONTROL K          &hold_tap_pretime_right LA(LEFT_CONTROL) L            &kp UNDER  &kp LC(BACKSPACE)
+&kp LEFT_CONTROL  &kp Z  &hold_tap_pretime_left LS(LA(LEFT_CONTROL)) X  &hold_tap_pretime_left LS(LEFT_CONTROL) C  &hold_tap_pretime_left LS(LEFT_ALT) V  &kp B        &none  &kp N                     &hold_tap_pretime_right LS(LEFT_ALT) M  &hold_tap_pretime_right LS(LEFT_CONTROL) COMMA  &hold_tap_pretime_right LA(LS(LC(LEFT_CONTROL))) DOT  &kp APOS   &kp LEFT_ALT
+&none             &none  &none                                          &hold_tap_shift LEFT_SHIFT LEFT_WIN        &mo 1                                  &kp SPACE    &none  &hold_tap_kp_mo 4 RETURN  &mo 2                                   &kp LEFT_SHIFT                                  &none                                                 &none
             >;
 
             display-name = "LAYER0";
@@ -127,7 +115,7 @@
         layer_2 {
             bindings = <
 &trans  &trans      &trans           &trans              &trans         &trans                   &trans  &trans              &trans              &trans               &trans               &trans      &trans
-&trans  &kp INSERT  &kp PRINTSCREEN  &kp K_CONTEXT_MENU  &trans         &trans                   &trans  &kp LC(LEFT_ARROW)  &kp PAGE_DOWN       &kp PAGE_UP          &kp LC(RIGHT_ARROW)  &trans      &trans
+&trans  &kp INSERT  &kp PRINTSCREEN  &kp K_CONTEXT_MENU  &kp INSERT     &trans                   &trans  &kp LC(LEFT_ARROW)  &kp PAGE_DOWN       &kp PAGE_UP          &kp LC(RIGHT_ARROW)  &trans      &trans
 &trans  &kp INSERT  &kt LC(DELETE)   &kp DELETE          &kp BACKSPACE  &kp LG(LA(BACKSPACE))    &trans  &kp LEFT_ARROW      &kp DOWN_ARROW      &kp UP_ARROW         &kp RIGHT_ARROW      &kp DELETE  &trans
 &trans  &kp LC(Z)   &kp LC(X)        &kp LC(C)           &kp LC(V)      &kp LG(LS(S))            &trans  &kp HOME            &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp END              &trans      &trans
 &trans  &trans      &trans           &trans              &trans         &trans                   &trans  &trans              &trans              &trans               &trans               &trans
