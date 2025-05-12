@@ -39,7 +39,7 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: 'Alt+$$mdi:apple-keyboard-control$$'}
   - _
-  - $$mdi:apple-keyboard-shift$$
+  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-control$$
   - Z
   - {t: X, h: 'Sft+Alt+$$mdi:apple-keyboard-control$$'}
