@@ -114,11 +114,11 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans         &trans    &trans      &trans             &trans  &trans     &trans         &trans        &trans     &trans   &trans
-&trans  &kp F1  &kp F2         &kp F3    &kp F4      &kp F5             &trans  &kp F6     &kp F7         &kp F8        &kp F9     &kp F10  &trans
-&trans  &trans  &kp AT_SIGN    &kp HASH  &kp DOLLAR  &kp PERCENT        &trans  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp COLON  &kp F11  &trans
-&trans  &trans  &kp BACKSLASH  &kp PIPE  &kp SLASH   &kp EXCLAMATION    &trans  &kp UNDER  &kp APOS       &kp LS(APOS)  &trans     &kp F12  &trans
-&trans  &trans  &trans         &trans    &trans      &trans             &trans  &trans     &trans         &trans        &trans     &trans
+&trans  &trans  &trans         &trans    &trans      &trans             &trans  &trans     &trans         &trans        &trans          &trans   &trans
+&trans  &kp F1  &kp F2         &kp F3    &kp F4      &kp F5             &trans  &kp F6     &kp F7         &kp F8        &kp F9          &kp F10  &trans
+&trans  &trans  &kp AT_SIGN    &kp HASH  &kp DOLLAR  &kp PERCENT        &trans  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp COLON       &kp F11  &trans
+&trans  &trans  &kp BACKSLASH  &kp PIPE  &kp SLASH   &kp EXCLAMATION    &trans  &kp UNDER  &kp APOS       &kp LS(APOS)  &kp UNDERSCORE  &kp F12  &trans
+&trans  &trans  &trans         &trans    &trans      &trans             &trans  &trans     &trans         &trans        &trans          &trans
             >;
 
             display-name = "layer1";
@@ -129,7 +129,7 @@
 &trans  &trans      &trans           &trans              &trans             &trans               &trans  &trans              &trans          &trans        &trans               &trans      &trans
 &trans  &kp INSERT  &kp PRINTSCREEN  &kp K_CONTEXT_MENU  &kp LG(LC(LA(V)))  &trans               &trans  &kp LC(LEFT_ARROW)  &kp PAGE_DOWN   &kp PAGE_UP   &kp LC(RIGHT_ARROW)  &trans      &trans
 &trans  &kp INSERT  &kt LC(DELETE)   &kp DELETE          &kp BACKSPACE      &kp LC(BACKSPACE)    &trans  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW      &kp DELETE  &trans
-&trans  &kp LC(Z)   &kp LC(X)        &kp LC(C)           &kp LC(V)          &trans               &trans  &kp ESCAPE          &kp HOME        &kp END       &kp UNDER            &trans      &trans
+&trans  &kp LC(Z)   &kp LC(X)        &kp LC(C)           &kp LC(V)          &trans               &trans  &kp ESCAPE          &kp HOME        &kp END       &trans               &trans      &trans
 &trans  &trans      &trans           &trans              &trans             &trans               &trans  &trans              &trans          &trans        &trans               &trans
             >;
         };
@@ -139,7 +139,7 @@
 &trans  &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &trans  &trans           &trans           &trans             &trans      &trans       &trans
 &trans  &bt BT_CLR       &bt BT_CLR_ALL  &trans           &trans           &trans             &trans  &trans           &trans           &kp C_VOLUME_UP    &kp C_STOP  &trans       &trans
 &trans  &out OUT_USB     &out OUT_USB    &trans           &trans           &trans             &trans  &trans           &kp C_MUTE       &kp C_VOLUME_DOWN  &kp C_PLAY  &trans       &trans
-&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI    &trans  &rgb_ug RGB_SPI  &rgb_ug RGB_BRD  &sys_reset         &soft_off   &bootloader  &trans
+&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI    &trans  &rgb_ug RGB_SPI  &rgb_ug RGB_BRD  &sys_reset         &trans      &bootloader  &trans
 &trans  &trans           &trans          &trans           &trans           &trans             &trans  &trans           &trans           &trans             &trans      &trans
             >;
         };
