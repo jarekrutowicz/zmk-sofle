@@ -115,7 +115,7 @@ layers:
   - _
   - {t: '''', s: '"'}
   - {t: Sft+', s: Sft+"}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - _
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -180,7 +180,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - HOME
   - END
-  - _
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -245,7 +245,7 @@ layers:
   - RGB SPI
   - RGB BRD
   - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - '&soft_off'
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
