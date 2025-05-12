@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:keyboard-esc$$
   - A
   - {t: S, h: 'Alt+$$mdi:apple-keyboard-control$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
@@ -276,12 +276,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '[', s: '{'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '{'
   - '}'
-  - {t: ']', s: '}'}
-  - {t: '$$mdi:transfer$$', type: trans}
   - '*'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - +
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
@@ -290,11 +290,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - <
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - (
+  - )
   - '>'
   - {t: '$$mdi:transfer$$', type: trans}
-  - +
+  - '0'
   - '4'
   - {t: '5', s: '%'}
   - '6'
@@ -303,11 +303,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - (
-  - )
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '0', s: )}
+  - {t: '-', s: _}
   - '1'
   - '2'
   - '3'
