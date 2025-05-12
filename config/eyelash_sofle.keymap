@@ -126,11 +126,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans      &trans           &trans              &trans             &trans               &trans  &trans              &trans          &trans        &trans               &trans      &trans
-&trans  &kp INSERT  &kp PRINTSCREEN  &kp K_CONTEXT_MENU  &kp LG(LC(LA(V)))  &trans               &trans  &kp LC(LEFT_ARROW)  &kp PAGE_DOWN   &kp PAGE_UP   &kp LC(RIGHT_ARROW)  &trans      &trans
-&trans  &kp INSERT  &kt LC(DELETE)   &kp DELETE          &kp BACKSPACE      &kp LC(BACKSPACE)    &trans  &kp LEFT_ARROW      &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW      &kp DELETE  &trans
-&trans  &kp LC(Z)   &kp LC(X)        &kp LC(C)           &kp LC(V)          &trans               &trans  &kp ESCAPE          &kp HOME        &kp END       &trans               &trans      &trans
-&trans  &trans      &trans           &trans              &trans             &trans               &trans  &trans              &trans          &trans        &trans               &trans
+&trans  &trans      &trans           &trans              &trans         &trans                   &trans  &trans              &trans              &trans               &trans               &trans      &trans
+&trans  &kp INSERT  &kp PRINTSCREEN  &kp K_CONTEXT_MENU  &trans         &trans                   &trans  &kp LC(LEFT_ARROW)  &kp PAGE_DOWN       &kp PAGE_UP          &kp LC(RIGHT_ARROW)  &trans      &trans
+&trans  &kp INSERT  &kt LC(DELETE)   &kp DELETE          &kp BACKSPACE  &kp LG(LA(BACKSPACE))    &trans  &kp LEFT_ARROW      &kp DOWN_ARROW      &kp UP_ARROW         &kp RIGHT_ARROW      &kp DELETE  &trans
+&trans  &kp LC(Z)   &kp LC(X)        &kp LC(C)           &kp LC(V)      &kp LG(LS(S))            &trans  &kp HOME            &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp END              &trans      &trans
+&trans  &trans      &trans           &trans              &trans         &trans                   &trans  &trans              &trans              &trans               &trans               &trans
             >;
         };
 
