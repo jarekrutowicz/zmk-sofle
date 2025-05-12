@@ -38,7 +38,7 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-option$$'}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: 'Alt+$$mdi:apple-keyboard-control$$'}
-  - {t: ;, s: ':'}
+  - _
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - Z
@@ -93,16 +93,16 @@ layers:
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '!'
+  - {t: '$$mdi:transfer$$', type: trans}
   - '@'
   - '#'
   - $
   - '%'
   - {t: '$$mdi:transfer$$', type: trans}
-  - ^
+  - '?'
   - '&'
-  - ':'
   - {t: ;, s: ':'}
+  - ':'
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -112,10 +112,10 @@ layers:
   - {t: /, s: '?'}
   - '!'
   - {t: '$$mdi:transfer$$', type: trans}
-  - '?'
+  - ^
   - {t: '''', s: '"'}
   - {t: Sft+', s: Sft+"}
-  - _
+  - {t: '$$mdi:transfer$$', type: trans}
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
