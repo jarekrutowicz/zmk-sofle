@@ -149,7 +149,7 @@ layers:
   - PRINTSCREEN
   - CONTEXT MENU
   - Ins
-  - {t: '$$mdi:transfer$$', type: trans}
+  - LEFT WIN
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+$$mdi:arrow-left-bold$$
   - PgDn
