@@ -209,7 +209,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&soft_off'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&soft_off'
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
   - '&soft_off'
@@ -221,7 +221,7 @@ layers:
   - $$mdi:volume-high$$
   - STOP
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&soft_off'
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
   - OUT USB
