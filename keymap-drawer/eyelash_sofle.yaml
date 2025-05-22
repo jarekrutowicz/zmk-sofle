@@ -145,24 +145,24 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Gui+Sft+Ins
-  - PRINTSCREEN
-  - CONTEXT MENU
-  - Ins
-  - LEFT WIN
+  - F10
+  - F7
+  - F8
+  - F9
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+$$mdi:arrow-left-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - PgDn
   - PgUp
-  - Ctl+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ins
-  - {t: 'Ctl+$$mdi:backspace-reverse-outline$$', h: toggle}
-  - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: 'Gui+Alt+$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - F11
+  - F4
+  - F5
+  - F6
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -171,11 +171,11 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Gui+1
-  - Gui+2
-  - Gui+3
-  - Gui+4
-  - {t: Gui+5, s: Gui+%}
+  - F12
+  - F3
+  - F2
+  - F1
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - HOME
   - Ctl+$$mdi:arrow-left-bold$$
