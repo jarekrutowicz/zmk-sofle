@@ -86,10 +86,10 @@ layers:
   - F4
   - F5
   - {t: '$$mdi:transfer$$', type: trans}
-  - F6
-  - F7
-  - F8
-  - F9
+  - {t: '-', s: _}
+  - {t: '7', s: '&'}
+  - '8'
+  - {t: '9', s: (}
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -99,11 +99,11 @@ layers:
   - $
   - '%'
   - {t: '$$mdi:transfer$$', type: trans}
-  - '?'
-  - '&'
-  - {t: ;, s: ':'}
-  - ':'
-  - F11
+  - '*'
+  - '4'
+  - '5'
+  - '6'
+  - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -112,10 +112,10 @@ layers:
   - {t: /, s: '?'}
   - '!'
   - {t: '$$mdi:transfer$$', type: trans}
-  - ^
-  - {t: '''', s: '"'}
-  - {t: Sft+', s: Sft+"}
-  - '~'
+  - +
+  - '1'
+  - '2'
+  - '3'
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
