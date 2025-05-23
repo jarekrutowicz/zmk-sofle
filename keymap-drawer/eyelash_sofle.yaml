@@ -38,7 +38,7 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-option$$'}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: 'Alt+$$mdi:apple-keyboard-control$$'}
-  - _
+  - '~'
   - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - '&control_tap_dance'
   - Z
@@ -62,7 +62,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: RETURN, h: '$$mdi:apple-keyboard-shift$$'}
   - '2'
-  - '~'
+  - _
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   layer1:
