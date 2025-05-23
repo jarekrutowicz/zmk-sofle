@@ -38,7 +38,7 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-option$$'}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: 'Alt+$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - _
   - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - '&control_tap_dance'
   - Z
@@ -51,7 +51,7 @@ layers:
   - {t: M, h: 'Sft+$$mdi:apple-keyboard-option$$'}
   - {t: ',', h: 'Sft+$$mdi:apple-keyboard-control$$', s: <}
   - {t: ., h: 'Meh+$$mdi:apple-keyboard-control$$', s: '>'}
-  - _
+  - ':'
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -84,13 +84,13 @@ layers:
   - $
   - '{'
   - '}'
-  - {t: '=', s: +}
+  - '%'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '-', s: _}
+  - +
   - {t: '7', s: '&'}
   - '8'
   - {t: '9', s: (}
-  - ':'
+  - {t: '=', s: +}
   - {t: \, s: '|'}
   - <
   - '>'
@@ -112,7 +112,7 @@ layers:
   - {t: '''', s: '"'}
   - '!'
   - {t: '$$mdi:transfer$$', type: trans}
-  - +
+  - {t: '-', s: _}
   - '1'
   - '2'
   - '3'
