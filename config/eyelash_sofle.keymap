@@ -138,10 +138,10 @@
 
         layer_1 {
             bindings = <
-&trans            &trans             &trans       &trans                &trans                 &trans             &trans  &trans     &trans        &trans        &trans        &trans     &trans
-&kp CARET         &kp AMPERSAND      &kp DOLLAR   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PERCENT        &trans  &kp PLUS   &kp N7        &kp NUMBER_8  &kp N9        &kp EQUAL  &kp BACKSLASH
-&kp LESS_THAN     &kp GREATER_THAN   &kp AT_SIGN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION       &trans  &kp ASTRK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp N0     &kp PIPE
-&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp HASH     &kp DOUBLE_QUOTES     &kp APOS               &kp EXCLAMATION    &trans  &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SEMI   &kp SLASH
+&trans            &trans             &trans       &trans                &trans                 &trans             &trans  &trans     &trans        &trans        &trans        &trans       &trans
+&kp CARET         &kp AMPERSAND      &kp DOLLAR   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL          &trans  &kp PLUS   &kp N7        &kp NUMBER_8  &kp N9        &kp PERCENT  &kp BACKSLASH
+&kp LESS_THAN     &kp GREATER_THAN   &kp AT_SIGN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION       &trans  &kp ASTRK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp N0       &kp PIPE
+&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp HASH     &kp DOUBLE_QUOTES     &kp APOS               &kp EXCLAMATION    &trans  &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SEMI     &kp SLASH
 &trans            &trans             &trans       &trans                &trans                 &trans             &trans  &trans     &trans        &trans        &trans        &trans
             >;
 
