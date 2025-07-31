@@ -60,7 +60,7 @@ layers:
   - layer1
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: RETURN, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - '2'
   - _
   - {t: '$$mdi:minus-circle-outline$$', type: none}
