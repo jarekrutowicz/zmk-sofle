@@ -40,7 +40,7 @@ layers:
   - {t: L, h: 'Alt+$$mdi:apple-keyboard-control$$'}
   - _
   - $$mdi:apple-keyboard-shift$$
-  - LEFT WIN
+  - '~'
   - Z
   - {t: X, h: 'Sft+Alt+$$mdi:apple-keyboard-control$$'}
   - {t: C, h: 'Sft+$$mdi:apple-keyboard-control$$'}
