@@ -130,7 +130,7 @@
 &kp TAB                          &kp Q             &kp W                                          &kp E                                      &kp R                                  &kp T        &none  &kp Y      &kp U                                   &kp I                                           &kp O                                                 &kp P           &kp BACKSPACE
 &esc_hold_tap LEFT_SHIFT ESCAPE  &kp A             &hold_tap_pretime_left LA(LEFT_CONTROL) S      &hold_tap_pretime_left LEFT_CONTROL D      &hold_tap_pretime_left LEFT_ALT F      &kp G        &none  &kp H      &hold_tap_pretime_right LEFT_ALT J      &hold_tap_pretime_right LEFT_CONTROL K          &hold_tap_pretime_right LA(LEFT_CONTROL) L            &kp UNDERSCORE  &kp RIGHT_SHIFT
 &kp LEFT_WIN                     &kp Z             &hold_tap_pretime_left LS(LA(LEFT_CONTROL)) X  &hold_tap_pretime_left LS(LEFT_CONTROL) C  &hold_tap_pretime_left LS(LEFT_ALT) V  &kp B        &none  &kp N      &hold_tap_pretime_right LS(LEFT_ALT) M  &hold_tap_pretime_right LS(LEFT_CONTROL) COMMA  &hold_tap_pretime_right LA(LS(LC(LEFT_CONTROL))) DOT  &kp COLON       &kp LC(BACKSPACE)
-&none                            &kp LEFT_CONTROL  &kp LEFT_ALT                                   &tog 1                                     &mo 1                                  &kp SPACE    &none  &kp ENTER  &mo 2                                   &tog 2                                          &kp LEFT_WIN                                          &kp TILDE
+&none                            &kp LEFT_CONTROL  &kp LEFT_ALT                                   &kp LEFT_WIN                               &mo 1                                  &kp SPACE    &none  &kp ENTER  &mo 2                                   &to 0                                           &tog 1                                                &tog 2
             >;
 
             display-name = "LAYER0";
@@ -151,7 +151,7 @@
         layer_2 {
             bindings = <
 &trans  &trans   &trans  &trans  &trans  &trans           &trans  &trans           &trans              &trans               &trans           &trans         &trans
-&trans  &kp F10  &kp F7  &kp F8  &kp F9  &kp LA(LG(V))    &trans  &kp PRINTSCREEN  &kp PAGE_DOWN       &kp PAGE_UP          &kp GRAVE        &trans         &trans
+&trans  &kp F10  &kp F7  &kp F8  &kp F9  &kp LA(LG(V))    &trans  &kp PRINTSCREEN  &kp PAGE_DOWN       &kp PAGE_UP          &kp GRAVE        &kp TILDE      &trans
 &trans  &kp F11  &kp F4  &kp F5  &kp F6  &kp INSERT       &trans  &kp LEFT_ARROW   &kp DOWN_ARROW      &kp UP_ARROW         &kp RIGHT_ARROW  &kp DELETE     &trans
 &trans  &kp F12  &kp F1  &kp F2  &kp F3  &kp K_CMENU      &trans  &kp HOME         &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp END          &kp LC(GRAVE)  &trans
 &trans  &trans   &trans  &trans  &trans  &trans           &trans  &trans           &trans              &trans               &trans           &trans
