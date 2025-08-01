@@ -121,6 +121,15 @@
     behaviors {
     };
 
+    macros {
+        ben: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(B) &kp E &kp N &kp I &kp O &kp W &kp S &kp K &kp I &kp E &kp G &kp O &kp N3>;
+            label = "NEW_MACRO";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -130,7 +139,7 @@
 &kp TAB                          &kp Q             &kp W                                          &kp E                                      &kp R                                  &kp T        &none  &kp Y      &kp U                                   &kp I                                           &kp O                                                 &kp P           &kp BACKSPACE
 &esc_hold_tap LEFT_SHIFT ESCAPE  &kp A             &hold_tap_pretime_left LA(LEFT_CONTROL) S      &hold_tap_pretime_left LEFT_CONTROL D      &hold_tap_pretime_left LEFT_ALT F      &kp G        &none  &kp H      &hold_tap_pretime_right LEFT_ALT J      &hold_tap_pretime_right LEFT_CONTROL K          &hold_tap_pretime_right LA(LEFT_CONTROL) L            &kp UNDERSCORE  &kp RIGHT_SHIFT
 &kp LEFT_WIN                     &kp Z             &hold_tap_pretime_left LS(LA(LEFT_CONTROL)) X  &hold_tap_pretime_left LS(LEFT_CONTROL) C  &hold_tap_pretime_left LS(LEFT_ALT) V  &kp B        &none  &kp N      &hold_tap_pretime_right LS(LEFT_ALT) M  &hold_tap_pretime_right LS(LEFT_CONTROL) COMMA  &hold_tap_pretime_right LA(LS(LC(LEFT_CONTROL))) DOT  &kp COLON       &kp LC(BACKSPACE)
-&none                            &kp LEFT_CONTROL  &kp LEFT_ALT                                   &kp LEFT_WIN                               &mo 1                                  &kp SPACE    &none  &kp ENTER  &mo 2                                   &to 0                                           &tog 1                                                &tog 2
+&none                            &kp LEFT_CONTROL  &kp LEFT_ALT                                   &kp LEFT_WIN                               &mo 1                                  &kp SPACE    &none  &kp ENTER  &mo 2                                   &tog 1                                          &tog 2                                                &mo 3
             >;
 
             display-name = "LAYER0";
@@ -163,18 +172,11 @@
 &soft_off  &bt BT_SEL 0     &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4       &trans  &trans           &trans           &trans             &trans      &trans        &soft_off
 &soft_off  &bt BT_CLR       &bt BT_CLR_ALL  &soft_off        &sys_reset       &bootloader        &trans  &bootloader      &sys_reset       &kp C_VOLUME_UP    &kp C_STOP  &bt BT_SEL 2  &soft_off
 &trans     &out OUT_USB     &out OUT_USB    &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &bt BT_NXT         &trans  &bt BT_PRV       &kp C_MUTE       &kp C_VOLUME_DOWN  &kp C_PLAY  &bt BT_SEL 1  &bt BT_SEL 4
-&trans     &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI    &trans  &rgb_ug RGB_SPI  &rgb_ug RGB_BRD  &sys_reset         &none       &bt BT_SEL 0  &bt BT_SEL 3
+&ben       &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI    &trans  &rgb_ug RGB_SPI  &rgb_ug RGB_BRD  &sys_reset         &none       &bt BT_SEL 0  &bt BT_SEL 3
 &trans     &trans           &trans          &trans           &trans           &trans             &trans  &trans           &trans           &trans             &trans      &trans
             >;
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        c3 {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
