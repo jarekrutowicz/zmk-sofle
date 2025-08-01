@@ -56,15 +56,15 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - {t: layer1, h: toggle}
+  - LEFT WIN
   - layer1
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '2'
+  - {t: LAYER0, h: toggle}
+  - {t: layer1, h: toggle}
   - {t: '2', h: toggle}
-  - LEFT WIN
-  - '~'
   layer1:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -155,7 +155,7 @@ layers:
   - PgDn
   - PgUp
   - {t: '`', s: '~'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '~'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F11
