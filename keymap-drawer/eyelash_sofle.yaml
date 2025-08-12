@@ -29,41 +29,41 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
   - A
-  - {t: S, h: 'Alt+$$mdi:apple-keyboard-control$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-option$$'}
+  - S
+  - D
+  - F
   - G
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: L, h: 'Alt+$$mdi:apple-keyboard-control$$'}
+  - J
+  - K
+  - L
   - _
   - $$mdi:apple-keyboard-shift$$
-  - '~'
+  - LEFT WIN
   - Z
-  - {t: X, h: 'Sft+Alt+$$mdi:apple-keyboard-control$$'}
-  - {t: C, h: 'Sft+$$mdi:apple-keyboard-control$$'}
-  - {t: V, h: 'Sft+$$mdi:apple-keyboard-option$$'}
+  - X
+  - C
+  - V
   - B
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - N
-  - {t: M, h: 'Sft+$$mdi:apple-keyboard-option$$'}
+  - M
   - {t: ',', h: 'Sft+$$mdi:apple-keyboard-control$$', s: <}
   - {t: ., h: 'Meh+$$mdi:apple-keyboard-control$$', s: '>'}
   - ':'
   - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - LEFT WIN
   - layer1
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '2'
-  - {t: layer1, h: toggle}
-  - {t: '2', h: toggle}
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
   - '3'
   layer1:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -170,7 +170,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '~'
   - F12
   - F1
   - F2
