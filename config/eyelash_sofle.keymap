@@ -125,7 +125,7 @@
         ben: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(B) &kp E &kp N &kp I &kp O &kp W &kp S &kp K &kp I &kp E &kp G &kp O &kp N3>;
+            bindings = <&kp LS(B) &kp E &kp N &kp I &kp O &kp W &kp S &kp K &kp I &kp E &kp G &kp O &kp NUMBER_4>;
             label = "NEW_MACRO";
         };
     };
