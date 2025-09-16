@@ -222,7 +222,7 @@ layers:
   - STOP
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - '&soft_off'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&anagraml'
   - OUT USB
   - OUT USB
   - RGB BRI
